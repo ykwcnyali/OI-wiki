@@ -53,10 +53,10 @@ int main() {
 
 ### 习题
 
--    [洛谷 U53525 前缀和（例题）](https://www.luogu.org/problemnew/show/U53525) 
--    [洛谷 U69096 前缀和的逆](https://www.luogu.org/problemnew/show/U69096) 
--    [AT2412 最大の和](https://www.luogu.org/problemnew/show/AT2412) 
--    [「USACO16JAN」子共七 Subsequences Summing to Sevens](https://www.luogu.org/problemnew/show/P3131) 
+-    [洛谷 U53525 前缀和（例题）](https://www.luogu.com.cn/problemnew/show/U53525) 
+-    [洛谷 U69096 前缀和的逆](https://www.luogu.com.cn/problemnew/show/U69096) 
+-    [AT2412 最大の和](https://www.luogu.com.cn/problemnew/show/AT2412) 
+-    [「USACO16JAN」子共七 Subsequences Summing to Sevens](https://www.luogu.com.cn/problemnew/show/P3131) 
 
 ### 参考
 
@@ -90,7 +90,7 @@ int main() {
 第二个问题就是如何应用，譬如求 $(x1,y1) - (x2,y2)$ 子矩阵的和。  
 那么，根据类似的思考过程，易得答案为 $sum_{x2,y2} - sum_{x1 - 1,y2} - sum_{x2,y1 - 1} + sum_{x1 - 1,y1 - 1}$ 。
 
-下面给出 [洛谷 P1387 最大正方形](https://www.luogu.org/problemnew/show/P1387) 这道题目的参考程序来帮助大家理解二维前缀和。
+下面给出 [洛谷 P1387 最大正方形](https://www.luogu.com.cn/problemnew/show/P1387) 这道题目的参考程序来帮助大家理解二维前缀和。
 
 ```cpp
 #include <algorithm>
@@ -132,7 +132,7 @@ int main() {
 ### 习题
 
 -    [CodeVS 1373. 射命丸文](http://codevs.cn/problem/1373/) 
--    [洛谷 P1387 最大正方形](https://www.luogu.org/problemnew/show/P1387) 
+-    [洛谷 P1387 最大正方形](https://www.luogu.com.cn/problemnew/show/P1387) 
 
 ### 基于 DP 计算高维前缀和
 
@@ -176,7 +176,7 @@ int main() {
 ### 习题
 
 -    [树状数组 3：区间修改，区间查询](https://loj.ac/problem/132) 
--    [P3397 地毯](https://www.luogu.org/problemnew/show/P3397) 
+-    [P3397 地毯](https://www.luogu.com.cn/problemnew/show/P3397) 
 
 ## 树上差分
 
@@ -193,4 +193,4 @@ int main() {
 
 ### 习题
 
--    [洛谷 3128. 最大流](https://www.luogu.org/problemnew/show/P3128) 
+-    [洛谷 3128. 最大流](https://www.luogu.com.cn/problemnew/show/P3128) 
